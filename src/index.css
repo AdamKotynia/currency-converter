@@ -1,0 +1,10 @@
+* {
+  font-size: 1.25rem;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 2rem;
+  background: #f9f9f9;
+}

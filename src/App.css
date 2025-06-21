@@ -1,0 +1,26 @@
+.app-container {
+  max-width: fit-content;
+  margin: auto;
+  padding: 1.5rem;
+  border: 1px solid #808080;
+  border-radius: 1rem;
+  box-shadow: 3px 3px #c0c0c0;
+  > header {
+    margin: auto;
+    width: fit-content;
+    > h1 {
+      margin-top: 0;
+    }
+  }
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
